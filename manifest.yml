@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TestPI-HongSeok
+  host: TestPI-HongSeok
+  disk_quota: 1024M
+  services:
+  - TestPI-HongSeok-personality_insights
+  - Availability Monitoring-ed
